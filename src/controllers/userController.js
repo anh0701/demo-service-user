@@ -5,7 +5,7 @@ let getUser = async (req, res) => {
     const user = {
         username: 'Moon'
     }
-    res.rend(JSON.stringify(user));
+    res.send(JSON.stringify(user));
 }
 
 export default {
